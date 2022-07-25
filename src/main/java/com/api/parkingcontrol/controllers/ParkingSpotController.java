@@ -1,6 +1,5 @@
 package com.api.parkingcontrol.controllers;
 
-import java.beans.Beans;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 
@@ -19,8 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.api.parkingcontrol.dto.ParkingSpotDto;
 import com.api.parkingcontrol.models.ParkingSpotModel;
 import com.api.parkingcontrol.services.ParkingSpotService;
-
-import ch.qos.logback.core.joran.util.beans.BeanUtil;
 
 @RestController
 @CrossOrigin(origins = "*", maxAge = 3600)
