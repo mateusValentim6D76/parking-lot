@@ -74,8 +74,12 @@ public class ParkingSpotController {
 		return ResponseEntity.status(HttpStatus.OK).body("Parking Spot deleted successfully");
 	}
 
+	/*
+	 * Metodo tem o mesmo comportamento do metodo updateParkingSpot Localizado a
+	 * partir da linha 102
+	 */
 //	@PutMapping("/{id}")
-//	public ResponseEntity<Object> updateParkingSpot(@PathVariable(value = "id") Long id,
+//	public ResponseEntity<Object> updateParkingSpotItemByItem(@PathVariable(value = "id") Long id,
 //			@RequestBody @Valid ParkingSpotDto parkingSpotDto) {
 //		Optional<ParkingSpotModel> parkingSpotOptional = parkingSpotService.findById(id);
 //		if (!parkingSpotOptional.isPresent()) {
